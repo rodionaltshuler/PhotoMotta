@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar"/>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="AppTheme.MenuItem">
+        <item name="android:layout_width">@dimen/menu_item_size</item>
+        <item name="android:layout_height">@dimen/menu_item_size</item>
+        <item name="android:background">@drawable/bg_selector_menu_item</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16dp</item>
+
+    </style>
+
+</resources>
